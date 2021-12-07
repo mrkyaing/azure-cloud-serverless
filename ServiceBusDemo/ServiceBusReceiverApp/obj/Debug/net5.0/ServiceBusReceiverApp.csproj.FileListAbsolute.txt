@@ -30,3 +30,5 @@ C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusRecei
 C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusReceiverApp\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusReceiverApp\bin\Debug\net5.0\System.Memory.Data.dll
 C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusReceiverApp\obj\Debug\net5.0\ServiceBusReceiverApp.csproj.CopyComplete
+C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusReceiverApp\bin\Debug\net5.0\ServicesBusModels.dll
+C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusReceiverApp\bin\Debug\net5.0\ServicesBusModels.pdb

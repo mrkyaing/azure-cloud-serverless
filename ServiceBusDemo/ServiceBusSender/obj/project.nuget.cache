@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "D6nCwE6tyzH4hnYDp/w9AN/2cxczECe2mPNEeb+YDjDN3If/BVpmpAW5V3meGFNcwpU+lIBeFTxSs0edC28ugg==",
+  "dgSpecHash": "Dh/9R07DUbAqJo4J5Hg9dOFieVSsHLCfs8U6r1b3VURcWcBKjF5KpWMUNhvaFm5kT/RECwLPL+sgpcu5tBoUzg==",
   "success": true,
   "projectFilePath": "C:\\Users\\DELL\\Source\\Repos\\azure-cloud-serverless\\ServiceBusDemo\\ServiceBusSender\\ServiceBusSenderApp.csproj",
   "expectedPackageFiles": [

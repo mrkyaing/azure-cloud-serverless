@@ -34,7 +34,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\DELL\\Source\\Repos\\azure-cloud-serverless\\ServiceBusDemo\\ServicesBusModels\\ServicesBusModels.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Source\\Repos\\azure-cloud-serverless\\ServiceBusDemo\\ServicesBusModels\\ServicesBusModels.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -73,6 +77,21 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\DELL\\Source\\Repos\\azure-cloud-serverless\\ServiceBusDemo\\ServicesBusModels\\ServicesBusModels.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\azure-cloud-serverless\\ServiceBusDemo\\ServicesBusModels\\ServicesBusModels.csproj",
+        "projectName": "ServicesBusModels",
+        "projectPath": "C:\\Users\\DELL\\Source\\Repos\\azure-cloud-serverless\\ServiceBusDemo\\ServicesBusModels\\ServicesBusModels.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
       }
     }
   }

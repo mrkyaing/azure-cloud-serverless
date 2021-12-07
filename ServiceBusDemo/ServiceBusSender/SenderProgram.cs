@@ -1,10 +1,14 @@
 ﻿using Azure.Messaging.ServiceBus;
+using ServicesBusModels;
 using System;
 using System.Threading.Tasks;
+using System.Text;
+using System.Text.Json;
+using Microsoft.Azure.ServiceBus;
 
 namespace ServiceBusSenderApp
 {
-    public class Program
+    public class SenderProgram
     {
         // connection string to your Service Bus namespace
         static string connectionString = "Endpoint=sb://allsharedservicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=L4G7U0Q/tjbMCUH4R89cr2qVaGn7LjqKn+vzAlNG/rQ=";
@@ -19,10 +23,13 @@ namespace ServiceBusSenderApp
         static ServiceBusSender sender;
 
         // number of messages to be sent to the topic
-        private const int numOfMessages = 3;
+        private const int numOfMessages = 50;
         static async Task Main(string[] args)
         {
+            Console.WriteLine("start sending data to the topic");
             await SendMessageToTopic();
+            Console.WriteLine("press any key to close this window ...");
+            Console.ReadKey();
         }
 
         static async Task SendMessageToTopic()
@@ -40,8 +47,16 @@ namespace ServiceBusSenderApp
 
             for (int i = 1; i <= numOfMessages; i++)
             {
+                UserModel user = new UserModel() 
+                { 
+                    Id = i,
+                    Name="su su",
+                    Email="susu@gmail.com"
+                };
+                string message= JsonSerializer.Serialize(user);
+               
                 // try adding a message to the batch
-                if (!messageBatch.TryAddMessage(new ServiceBusMessage($"Message {i}")))
+                if (!messageBatch.TryAddMessage(new ServiceBusMessage(message)))
                 {
                     // if it is too large for the batch
                     throw new Exception($"The message {i} is too large to fit in the batch.");

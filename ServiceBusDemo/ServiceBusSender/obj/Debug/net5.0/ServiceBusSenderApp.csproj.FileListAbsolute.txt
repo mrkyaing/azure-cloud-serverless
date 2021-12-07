@@ -29,3 +29,6 @@ C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusSende
 C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusSender\obj\Debug\net5.0\ref\ServiceBusSenderApp.dll
 C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusSender\obj\Debug\net5.0\ServiceBusSenderApp.pdb
 C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusSender\obj\Debug\net5.0\ServiceBusSenderApp.genruntimeconfig.cache
+C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusSender\bin\Debug\net5.0\ServicesBusModels.dll
+C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusSender\bin\Debug\net5.0\ServicesBusModels.pdb
+C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusSender\obj\Debug\net5.0\ServiceBusSenderApp.csproj.AssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServicesBusModels\bin\Debug\ServicesBusModels.dll
+C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServicesBusModels\bin\Debug\ServicesBusModels.pdb
+C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServicesBusModels\obj\Debug\ServicesBusModels.csproj.AssemblyReference.cache
+C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServicesBusModels\obj\Debug\ServicesBusModels.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServicesBusModels\obj\Debug\ServicesBusModels.dll
+C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServicesBusModels\obj\Debug\ServicesBusModels.pdb

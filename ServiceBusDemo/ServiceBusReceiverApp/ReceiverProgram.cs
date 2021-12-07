@@ -1,11 +1,13 @@
 ﻿using Azure.Messaging.ServiceBus;
 using System;
 using System.Threading.Tasks;
+using System.Text.Json;
+using ServicesBusModels;
 
 namespace ServiceBusReceiverApp
 {
 
-    public class Program
+    public class ReceiverProgram
     {
         // connection string to your Service Bus namespace
         static string connectionString = "Endpoint=sb://allsharedservicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=L4G7U0Q/tjbMCUH4R89cr2qVaGn7LjqKn+vzAlNG/rQ=";
@@ -25,8 +27,9 @@ namespace ServiceBusReceiverApp
         // handle received messages
         static async Task MessageHandler(ProcessMessageEventArgs args)
         {
-            string body = args.Message.Body.ToString();
-            Console.WriteLine($"Received: {body} from subscription: {subscriptionName}");
+            var body =args.Message.Body.ToString();
+
+            Console.WriteLine($"Received: {body}  from subscription: {subscriptionName}");
 
             // complete the message. messages is deleted from the subscription. 
             await args.CompleteMessageAsync(args.Message);

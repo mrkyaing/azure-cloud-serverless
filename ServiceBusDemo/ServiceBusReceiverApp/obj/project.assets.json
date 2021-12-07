@@ -1902,6 +1902,15 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "ServicesBusModels/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ServicesBusModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServicesBusModels.dll": {}
+        }
       }
     }
   },
@@ -6681,12 +6690,18 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "ServicesBusModels/1.0.0": {
+      "type": "project",
+      "path": "../ServicesBusModels/ServicesBusModels.csproj",
+      "msbuildProject": "../ServicesBusModels/ServicesBusModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Azure.Messaging.ServiceBus >= 7.5.0",
-      "Microsoft.Azure.ServiceBus >= 5.2.0"
+      "Microsoft.Azure.ServiceBus >= 5.2.0",
+      "ServicesBusModels >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6725,7 +6740,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\DELL\\Source\\Repos\\azure-cloud-serverless\\ServiceBusDemo\\ServicesBusModels\\ServicesBusModels.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Source\\Repos\\azure-cloud-serverless\\ServiceBusDemo\\ServicesBusModels\\ServicesBusModels.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
