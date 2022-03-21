@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yDF/A4UiJtBgtKhe5VB+8EYhVZvjG8n9LMjb33Oc0FdC7lV7LtrCUWP/xIRINeF/OcpLN2XnE/sliQlMr9SVbw==",
+  "dgSpecHash": "iWpgBaJj3stqMaKO+DDdKsw0CJMZr4r3VxtZQ/+WB6fWyAMbABr2a5LaYM8ChC/NlRRTjKR4hNXlGjg6ta3cJA==",
   "success": true,
   "projectFilePath": "C:\\Users\\DELL\\Source\\Repos\\azure-cloud-serverless\\ServiceBusDemo\\ReadDataFromAppendBlobType\\ReadDataFromAppendBlobType.csproj",
   "expectedPackageFiles": [
@@ -88,8 +88,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\windowsazure.storage\\9.3.3\\windowsazure.storage.9.3.3.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+    "C:\\Users\\DELL\\.nuget\\packages\\windowsazure.storage\\9.3.3\\windowsazure.storage.9.3.3.nupkg.sha512"
   ],
   "logs": []
 }

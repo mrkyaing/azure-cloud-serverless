@@ -9,21 +9,15 @@ namespace ReadDataFromAppendBlobType {
     class Program {
         static void Main(string[] args)
         {
-
-
             string data = GetBlob("datalake", "TxtOutput/simple.txt");
-
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
         }
-
         public static string GetBlob(string containerName, string fileName)
         {
             string connectionString = "DefaultEndpointsProtocol=https;AccountName=pemsbidevstorage;AccountKey=8Dpv45Iu+RWKvbSTCSR/uCDAwgYotzY7nckjhxHSYYoGAgIKxBKiw1i2kemWdsJYs+OZIV1xixgoIvxYNwrgPw==;EndpointSuffix=core.windows.net;";
-
             // Setup the connection to the storage account
             CloudStorageAccount storageAccount = CloudStorageAccount.Parse(connectionString);
-
             // Connect to the blob storage
             CloudBlobClient serviceClient = storageAccount.CreateCloudBlobClient();
             // Connect to the blob container
@@ -47,10 +41,8 @@ namespace ReadDataFromAppendBlobType {
                     {
                         Console.Write(reader.ReadToEnd());
                     }
-
                     streamStart = streamStart + length;
                 }
-
                 Thread.Sleep(TimeSpan.FromSeconds(2));
             }
         }

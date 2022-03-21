@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2sbXvGC1/8nseiRJmxl/AacoOyIiRrnNJzrDHnkt33/RgluFijrUGrF1Q0P3TvNNlqPLdJNPcjmnKsnwekLHkw==",
+  "dgSpecHash": "PpyFW6FRpoq5ainQo0Zz4WP+N61XuwsfMsBzbYqDbAk/21FK6MnG4y8HWgU0R73AI4U0BeaQbDj7wEAXa9mrjg==",
   "success": true,
   "projectFilePath": "C:\\Users\\DELL\\Source\\Repos\\azure-cloud-serverless\\ServiceBusDemo\\ServiceBusSender\\ServiceBusSenderApp.csproj",
   "expectedPackageFiles": [
@@ -117,8 +117,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
