@@ -3,7 +3,6 @@ C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusRecei
 C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusReceiverApp\bin\Debug\net5.0\ServiceBusReceiverApp.runtimeconfig.json
 C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusReceiverApp\bin\Debug\net5.0\ServiceBusReceiverApp.runtimeconfig.dev.json
 C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusReceiverApp\bin\Debug\net5.0\ServiceBusReceiverApp.dll
-C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusReceiverApp\bin\Debug\net5.0\ref\ServiceBusReceiverApp.dll
 C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusReceiverApp\bin\Debug\net5.0\ServiceBusReceiverApp.pdb
 C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusReceiverApp\obj\Debug\net5.0\ServiceBusReceiverApp.csproj.AssemblyReference.cache
 C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusReceiverApp\obj\Debug\net5.0\ServiceBusReceiverApp.GeneratedMSBuildEditorConfig.editorconfig
@@ -32,3 +31,4 @@ C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusRecei
 C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusReceiverApp\obj\Debug\net5.0\ServiceBusReceiverApp.csproj.CopyComplete
 C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusReceiverApp\bin\Debug\net5.0\ServicesBusModels.dll
 C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusReceiverApp\bin\Debug\net5.0\ServicesBusModels.pdb
+C:\Users\DELL\Source\Repos\azure-cloud-serverless\ServiceBusDemo\ServiceBusReceiverApp\obj\Debug\net5.0\refint\ServiceBusReceiverApp.dll

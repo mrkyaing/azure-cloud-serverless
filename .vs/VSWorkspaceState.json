@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ServiceBusDemo",
+    "\\ServiceBusDemo\\ReadDataFromAppendBlobType",
+    "\\ServiceBusDemo\\ServiceBusReceiverApp"
   ],
+  "SelectedNode": "\\ServiceBusDemo\\ServiceBusReceiverApp\\ReceiverProgram.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "39c27e8c-3cc0-417e-8c84-c472159d4ce5": {
+      "ProjectGuid": "39c27e8c-3cc0-417e-8c84-c472159d4ce5",
+      "DisplayName": "ServiceBusReceiverApp",
+      "ColorIndex": 0
+    },
+    "9acdb833-2536-4b42-98ad-1795cff124ba": {
+      "ProjectGuid": "9acdb833-2536-4b42-98ad-1795cff124ba",
+      "DisplayName": "ServiceBusShared",
+      "ColorIndex": 1
+    },
+    "35471c39-9fda-4653-9962-b92fbcf402ce": {
+      "ProjectGuid": "35471c39-9fda-4653-9962-b92fbcf402ce",
+      "DisplayName": "ServiceBusSenderApp",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "b009d56e-da72-4259-bea3-8295056d4d1b": {
+      "ProjectGuid": "b009d56e-da72-4259-bea3-8295056d4d1b",
+      "DisplayName": "ServicesBusModels",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
